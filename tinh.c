@@ -1,4 +1,4 @@
-#include"bits/stdc++.h"
+#include"bits/stdc++.h" // thư viện 
 #include"tinh.h"
 using namespace std;
 List::List() {
@@ -24,8 +24,8 @@ node* List::create(DaiBieu g) {
     cout << "\nCo cong voi cach mang(Co,Khong): ";
     fflush(stdin);
     getline(cin, g.cm);
-    p->data = g;
-    p->next = NULL;
+    p->data=g;
+    p->next=NULL;
     return p;
 }
 void List::them(DB g){
